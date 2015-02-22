@@ -1,0 +1,76 @@
+[app/ui]
+version = 6.1.4
+modtime = 1421586161.576506600
+
+[app/launcher]
+version = 6.1.4
+modtime = 1421586161.590177600
+
+[props/tess_perflog/FIELDALIAS-tess_perflog]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = nobody
+version = 6.1.4
+modtime = 1421586727.511964100
+
+[props/wily_perflog/FIELDALIAS-wily_perflog]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = nobody
+version = 6.1.4
+modtime = 1421586793.934470600
+
+[props/tess_perflog/REPORT-tess_perflog]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = nobody
+version = 6.1.4
+modtime = 1421587615.810578100
+
+[props/wily_agents/EXTRACT-agentname-lastreportedon]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.1.4
+modtime = 1421587634.590626100
+
+[props/wily_agents/EXTRACT-wily_agents]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = nobody
+version = 6.1.4
+modtime = 1421587644.815557600
+
+[views/ca_apm_introscope_performance]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.1.4
+modtime = 1421639697.663035100
+
+[props/tess_perflog/LOOKUP-caapm_server_lookup]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.1.4
+modtime = 1421639742.553716600
+
+[props/wily_perflog/LOOKUP-caapm_server_lookup]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.1.4
+modtime = 1421639766.062954100
+
+[lookups/caapm_servers.csv]
+access = read : [ * ], write : [ admin, power ]
+export = none
+owner = admin
+version = 6.1.4
+modtime = 1421639805.251852100
+
+[]
+access = read : [ * ], write : [ admin, power ]
+export = system
+version = 6.1.4
+modtime = 1421732657.679633100
